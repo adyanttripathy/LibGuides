@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:weightSum="10"
     android:padding="12dp"
-    tools:context=".MainActivity">
+    tools:context=".Main4Activity">
 
     <TextView
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Login Page"
+        android:text="Sign Up Page"
         android:textColor="@android:color/black"
         android:textSize="40dp" />
     <TextView
@@ -30,7 +30,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@drawable/rectangle"
-        android:hint="     Email"
+        android:hint="     Name"
         android:inputType="textEmailAddress"
         android:padding="12dp"
         android:textColorHint="@android:color/black" />
@@ -45,6 +45,36 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@drawable/rectangle"
+        android:hint="     Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColorHint="@android:color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle"
+        android:hint="    SAP ID"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColorHint="@android:color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle"
         android:hint="    Password"
         android:inputType="textPassword"
         android:padding="12dp"
@@ -55,27 +85,14 @@
         android:layout_weight="1.5"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="105dp"
         android:layout_marginRight="105dp"
         android:layout_weight="1"
         android:background="@drawable/rectblue"
-        android:text="Login" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.2"/>
+        android:text="Sign Up" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_weight="1"
-        android:background="@drawable/background"
-        android:text="Not a Member? Sign Up Here" />
 
 </LinearLayout>

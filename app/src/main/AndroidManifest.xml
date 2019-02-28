@@ -35,7 +35,20 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".Main3Activity"></activity>
+        <activity android:name=".Main3Activity">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.Main3Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main4Activity">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.Main4Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

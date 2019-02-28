@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@mipmap/cc"
     android:orientation="vertical"
     android:weightSum="10"
     android:padding="12dp"
@@ -34,7 +34,10 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="    -Library Cause not Everything on the Internet is True!"
+        android:text="    -Library Cause not
+        Everything on the
+        Internet is True!"
+        android:textStyle="bold"
         android:textColor="@android:color/black"
         android:textSize="16dp" />
 
@@ -49,7 +52,7 @@
         android:layout_gravity="center"
         android:layout_weight="0"
         android:gravity="center"
-        android:text="Version: 0.001"
+        android:text="Version: 0.002"
         android:textColor="@android:color/black"
         android:textSize="12dp" />
 

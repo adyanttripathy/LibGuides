@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg"
+    android:background="@mipmap/bpn"
     android:orientation="vertical"
     android:weightSum="10"
     android:padding="12dp"
@@ -18,12 +18,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="SUCCESSFULLY SIGNED IN"
-        android:textSize="24dp"
-        android:gravity="center"
         android:layout_gravity="center"
-        android:textColor="@android:color/holo_orange_dark"/>
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="SUCCESSFULLY SIGNED IN"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -33,10 +33,10 @@
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginRight="120dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="105dp"
         android:layout_weight="1"
-        android:background="@drawable/orangerect"
+        android:background="@drawable/rectblue"
         android:text="Back"
         android:textColor="@android:color/black" />
 

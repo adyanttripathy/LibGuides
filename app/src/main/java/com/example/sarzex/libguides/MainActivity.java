@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Signing In",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent("com.example.sarzex.libguides.Main2Activity");
+                Intent intent = new Intent("com.example.sarzex.libguides.Main4Activity");
                 startActivity(intent);
             }
         });
@@ -41,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(ed1.getText().toString().equals("wercool@gmail.com")&& ed2.getText().toString().equals("Pass123")) {
+                if(ed1.getText().toString().equals("example@gmail.com")&& ed2.getText().toString().equals("Pass123")) {
                     Toast.makeText(MainActivity.this,"Logging In",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent("com.example.sarzex.libguides.Main2Activity");
+                    Intent intent = new Intent("com.example.sarzex.libguides.Main3Activity");
                     startActivity(intent);
                 }
                 else{

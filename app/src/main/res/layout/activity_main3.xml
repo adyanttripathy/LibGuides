@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:background="@mipmap/bpn"
     android:orientation="vertical"
-    android:weightSum="10"
     android:padding="12dp"
-    tools:context=".MainActivity">
+    android:weightSum="10"
+    tools:context=".Main3Activity">
 
     <TextView
         android:layout_width="match_parent"
@@ -16,66 +16,53 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Login Page"
+        android:text="MENU"
         android:textColor="@android:color/black"
-        android:textSize="40dp" />
+        android:textSize="35dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
-    <EditText
-        android:id="@+id/editText1"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/rectangle"
-        android:hint="     Email"
-        android:inputType="textEmailAddress"
-        android:padding="12dp"
-        android:textColorHint="@android:color/black" />
+        app:cardBackgroundColor="@android:color/holo_blue_dark" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.2"/>
+        android:layout_weight="1" />
 
-    <EditText
-        android:id="@+id/editText2"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/rectangle"
-        android:hint="    Password"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:textColorHint="@android:color/black" />
+        app:cardBackgroundColor="@android:color/holo_blue_dark" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.5"/>
+        android:layout_weight="1" />
 
-    <Button
-        android:id="@+id/button2"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginLeft="105dp"
-        android:layout_marginRight="105dp"
         android:layout_weight="1"
-        android:background="@drawable/rectblue"
-        android:text="Login" />
+        app:cardBackgroundColor="@android:color/holo_blue_dark" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.2"/>
+        android:layout_weight="1" />
 
-    <Button
-        android:id="@+id/button1"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_weight="1"
-        android:background="@drawable/background"
-        android:text="Not a Member? Sign Up Here" />
+        app:cardBackgroundColor="@android:color/holo_blue_dark" />
+
 
 </LinearLayout>
