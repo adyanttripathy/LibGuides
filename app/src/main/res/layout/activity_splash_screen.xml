@@ -34,12 +34,13 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="    -Library Cause not
+        android:text="      Library B'coz not
         Everything on the
         Internet is True!"
-        android:textStyle="bold"
+        android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="16dp" />
+        android:textSize="16dp"
+        android:textStyle="bold|italic" />
 
     <TextView
         android:layout_width="match_parent"
