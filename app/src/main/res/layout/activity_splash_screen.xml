@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/cc"
+    android:background="@mipmap/bpn"
     android:orientation="vertical"
     android:weightSum="10"
     android:padding="12dp"
-    tools:context=".MainActivity">
+    tools:context=".SplashScreen">
 
     <TextView
         android:layout_width="match_parent"
@@ -17,26 +17,45 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
-        app:srcCompat="@drawable/logoss"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_gravity="center"
         android:gravity="center"
-        android:layout_gravity="center"/>
+        app:srcCompat="@drawable/logoss" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"/>
+        android:layout_weight="1"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="1"
         android:gravity="center"
-        android:text="      Library B'coz not
-        Everything on the
-        Internet is True!"
+        android:text="Library B'coz not"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Everything on the"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Internet is True!"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="16dp"
@@ -45,13 +64,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"/>
+        android:layout_weight="5"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="0"
         android:gravity="center"
         android:text="Version: 0.002"
         android:textColor="@android:color/black"

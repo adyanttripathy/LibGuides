@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,28 +7,47 @@
     android:orientation="vertical"
     android:weightSum="10"
     android:padding="12dp"
-    tools:context=".Main4Activity">
+    tools:context=".Main6Activity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="1"
         android:gravity="center"
-        android:background="@drawable/suptext"
-        android:textSize="40dp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:text="FORGOT PASSWORD?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.2"/>
+        android:layout_weight="0.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Enter The Registered Email ID to send the Password Reset Link"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -41,57 +59,48 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.2"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.2"/>
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/rectangle"
-        android:hint="    Password"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:textColorHint="@android:color/black" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1.5"/>
+        android:layout_weight="1"/>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btn_reset_password"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="105dp"
         android:layout_marginRight="105dp"
         android:layout_weight="1"
         android:background="@drawable/rectblue"
-        android:text="Sign Up" />
+        android:text="Reset Password" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_back"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_weight="1"
         android:background="@drawable/background"
-        android:text="back" />
+        android:text="BACK" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
 
     <ProgressBar
-        android:id="@+id/progressbar"
-        android:layout_width="365dp"
-        android:layout_height="13dp"
+        android:id="@+id/progressBar"
+        android:layout_marginLeft="140dp"
+        android:layout_width="100dp"
+        android:layout_height="1dp"
         android:layout_centerHorizontal="false"
         android:layout_centerVertical="false"
         android:layout_weight="1"
         android:gravity="center"
         android:visibility="gone" />
-
 
 </LinearLayout>

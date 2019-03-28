@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dbms"
+    android:background="@mipmap/bpn">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#fcfcfc"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bookthumbnail"
+                android:layout_width="125dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/iconpdf"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/txttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="DATABASE MANAGEMENT SYSTEM"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#edecec"
+                android:padding="8dp"
+                android:text="ENGINEERING" />
+
+            <TextView
+                android:id="@+id/txtDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="BTech CS 2nd Year Semester-III"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="300dp"
+                android:layout_weight="1"
+                android:alpha="0.4"
+                android:linksClickable="true"
+                android:onClick="goTolink"
+                android:clickable="true"
+                android:autoLink="web"
+                android:cursorVisible="true"
+                android:background="@color/colorPrimary"
+                android:text="DOWNLOAD" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="200dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:alpha="0.4"
+                android:background="@drawable/rectblue"
+                android:text="Sign Out" />
+
+
+        </LinearLayout>
+
+</LinearLayout>

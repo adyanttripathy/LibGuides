@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sarzex.libguides">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -47,6 +47,174 @@
         <activity android:name=".Main4Activity">
             <intent-filter>
                 <action android:name="com.example.sarzex.libguides.Main4Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main5Activity">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.Main5Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".m3">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.m3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".coa">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.coa" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".os">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.os" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cn">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.cn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tcs">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.tcs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".adc">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.adc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".es">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.es" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pl2">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.pl2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pe">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.pe" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".m4">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.m4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ds">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.ds" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ds2">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.ds2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dld">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.dld" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".nt">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.nt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dbms">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.dbms" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pl1">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.pl1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main6Activity">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.Main6Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main7Activity">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.Main7Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main8Activity">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.Main8Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".book1">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.book1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".book2">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.book2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".book3">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.book3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".book4">
+            <intent-filter>
+                <action android:name="com.example.sarzex.libguides.book1" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

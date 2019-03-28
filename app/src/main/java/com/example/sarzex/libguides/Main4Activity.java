@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseUser;
 
 public class Main4Activity extends AppCompatActivity implements View.OnClickListener {
-    Button b1;
+
     EditText editTextEmail,editTextPassword;
     ProgressBar progressBar;
 
@@ -39,6 +39,7 @@ public class Main4Activity extends AppCompatActivity implements View.OnClickList
         mAuth = FirebaseAuth.getInstance();
 
         findViewById(R.id.button1).setOnClickListener(this);
+        findViewById(R.id.button2).setOnClickListener(this);
     }
 
     private void registerUser() {
@@ -77,7 +78,7 @@ public class Main4Activity extends AppCompatActivity implements View.OnClickList
                 progressBar.setVisibility(View.GONE);
                 if (task.isSuccessful()) {
                     finish();
-                    startActivity(new Intent(Main4Activity.this, MainActivity.class));
+                    startActivity(new Intent(Main4Activity.this, Main2Activity.class));
                 } else {
 
                     if (task.getException() instanceof FirebaseAuthUserCollisionException) {
@@ -99,6 +100,13 @@ public class Main4Activity extends AppCompatActivity implements View.OnClickList
             case R.id.button1:
                 registerUser();
                 break;
+
+            case R.id.button2:
+                finish();
+                Intent intent = new Intent(Main4Activity.this, MainActivity.class);
+                startActivity(intent);
+                break;
+
         }
     }
 }

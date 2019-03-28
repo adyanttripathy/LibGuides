@@ -16,8 +16,7 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Login Page"
-        android:textColor="@android:color/black"
+        android:background="@drawable/lgptext"
         android:textSize="40dp" />
     <TextView
         android:layout_width="match_parent"
@@ -25,7 +24,7 @@
         android:layout_weight="1"/>
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -52,10 +51,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.5"/>
+        android:layout_weight="0.5"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="105dp"
@@ -63,13 +62,24 @@
         android:layout_weight="1"
         android:background="@drawable/rectblue"
         android:text="Login" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.2"/>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/background"
+        android:text="forgot PASSWORD?" />
+
+    <Button
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="10dp"
@@ -77,5 +87,21 @@
         android:layout_weight="1"
         android:background="@drawable/background"
         android:text="Not a Member? Sign Up Here" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_marginLeft="140dp"
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:visibility="gone" />
 
 </LinearLayout>
